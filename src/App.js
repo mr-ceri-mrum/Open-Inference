@@ -9,6 +9,8 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import ThemeToggle from './components/ThemeToggle';
 import './App.css';
 
 function App() {
@@ -90,6 +92,10 @@ function App() {
         <CtaSection />
       </main>
       <Footer />
+      
+      {/* Дополнительные компоненты */}
+      <ScrollToTop />
+      <ThemeToggle />
     </div>
   );
 }
