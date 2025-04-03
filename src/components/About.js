@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import aboutImage from '../assets/about-image.svg';
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
         </div>
         <div className="about-content">
           <div className="about-image">
-            <img src={aboutImage} alt="Команда Open Inference" />
+            <div className="about-image-placeholder"></div>
           </div>
           <div className="about-text">
             <h4>Мы помогаем бизнесу расти с помощью современных технологий</h4>
