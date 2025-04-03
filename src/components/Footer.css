@@ -1,0 +1,137 @@
+footer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 80px 0 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 30px;
+  text-align: left;
+}
+
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer-logo h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.footer-column p {
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--primary-blue);
+}
+
+.contact-info {
+  list-style: none;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  color: #aaa;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  color: var(--primary-blue);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--white);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.social-links a:hover {
+  background-color: var(--primary-blue);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #aaa;
+}
+
+@media (max-width: 992px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 0 0 45%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 60px 0 30px;
+  }
+  
+  .footer-column {
+    flex: 0 0 100%;
+  }
+}
