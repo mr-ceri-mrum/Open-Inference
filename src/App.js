@@ -11,6 +11,7 @@ import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import ThemeToggle from './components/ThemeToggle';
+import CallbackButton from './components/CallbackButton';
 import './App.css';
 
 function App() {
@@ -96,6 +97,7 @@ function App() {
       {/* Дополнительные компоненты */}
       <ScrollToTop />
       <ThemeToggle />
+      <CallbackButton />
     </div>
   );
 }
