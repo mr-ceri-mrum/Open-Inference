@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Центральный круг -->
+  <circle cx="256" cy="256" r="85" fill="white"/>
+  
+  <!-- Верхний левый элемент -->
+  <path d="M224 128C192 136 160 168 144 200C128 232 160 264 192 256C224 248 256 216 272 184C288 152 256 120 224 128Z" fill="url(#blue_gradient)"/>
+  
+  <!-- Верхний правый элемент -->
+  <path d="M288 128C320 136 352 168 368 200C384 232 352 264 320 256C288 248 256 216 240 184C224 152 256 120 288 128Z" fill="url(#purple_gradient)"/>
+  
+  <!-- Нижний правый элемент -->
+  <path d="M288 384C320 376 352 344 368 312C384 280 352 248 320 256C288 264 256 296 240 328C224 360 256 392 288 384Z" fill="url(#pink_gradient)"/>
+  
+  <!-- Нижний левый элемент -->
+  <path d="M224 384C192 376 160 344 144 312C128 280 160 248 192 256C224 264 256 296 272 328C288 360 256 392 224 384Z" fill="url(#purple_blue_gradient)"/>
+  
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="blue_gradient" x1="128" y1="192" x2="288" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#2575fc"/>
+    </linearGradient>
+    
+    <linearGradient id="purple_gradient" x1="384" y1="192" x2="224" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7B2FF7"/>
+      <stop offset="1" stop-color="#6a11cb"/>
+    </linearGradient>
+    
+    <linearGradient id="pink_gradient" x1="384" y1="320" x2="224" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF2D87"/>
+      <stop offset="1" stop-color="#9B00FF"/>
+    </linearGradient>
+    
+    <linearGradient id="purple_blue_gradient" x1="128" y1="320" x2="288" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6a11cb"/>
+      <stop offset="1" stop-color="#7B2FF7"/>
+    </linearGradient>
+  </defs>
+</svg>
