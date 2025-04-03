@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import ThemeToggle from './components/ThemeToggle';
 import CallbackButton from './components/CallbackButton';
+import CookieConsent from './components/CookieConsent';
 import './App.css';
 
 function App() {
@@ -98,6 +99,7 @@ function App() {
       <ScrollToTop />
       <ThemeToggle />
       <CallbackButton />
+      <CookieConsent />
     </div>
   );
 }
