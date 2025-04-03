@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
-import logo from '../assets/logo-new.svg';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -30,7 +29,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <img src={logo} alt="Open Inference Logo" />
+            <div className="logo-placeholder"></div>
             <h1>Open Inference</h1>
           </div>
           <div className="mobile-menu-button" onClick={toggleMobileMenu}>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/logo-new.svg';
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-column">
             <div className="footer-logo">
-              <img src={logo} alt="Open Inference Logo" />
+              <div className="footer-logo-placeholder"></div>
               <h4>Open Inference</h4>
             </div>
             <p>

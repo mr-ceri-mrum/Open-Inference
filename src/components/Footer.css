@@ -26,10 +26,12 @@ footer {
   margin-bottom: 20px;
 }
 
-.footer-logo img {
+.footer-logo-placeholder {
   width: 40px;
-  height: auto;
+  height: 40px;
   margin-right: 10px;
+  background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple), var(--primary-pink));
+  border-radius: 50%;
 }
 
 .footer-logo h4 {
